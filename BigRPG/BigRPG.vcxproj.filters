@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Characters">
+      <UniqueIdentifier>{57223862-4cd5-4da3-a99e-270ba73ad9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Functionality">
+      <UniqueIdentifier>{0c2dffd7-8391-4795-9b2e-02e365685024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Characters\TypesOfCharacters">
+      <UniqueIdentifier>{1e943edf-43d2-4904-8b6d-5522de83e6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Characters\TypesOfCharacters\Mag">
+      <UniqueIdentifier>{651ae079-a441-4dc8-a724-32308abbaafb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Functionality\Menu">
+      <UniqueIdentifier>{b12701fb-cc4d-45be-95c7-0850339c12f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Functionality\Menu\StartMenu">
+      <UniqueIdentifier>{7fded722-759e-408e-8a2a-ebbeda4e60b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Functionality\Menu\PauseMenu">
+      <UniqueIdentifier>{202b139e-8389-4387-b8ee-78c7f789fdaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Helper">
+      <UniqueIdentifier>{d613772a-e349-449d-85fd-369880e0a858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Helper\Save">
+      <UniqueIdentifier>{b1bcdb9b-7844-4cf6-8e9d-a43c4a8fcc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Characters\TypesOfCharacters\Rycerz">
+      <UniqueIdentifier>{02a9cbe4-7fba-4ce5-aec9-e0d54baa6acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Functionality\Game">
+      <UniqueIdentifier>{bb154c2e-ade2-400b-a8a5-b7d8111d677c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BigRPG.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Mag.cpp">
+      <Filter>Pliki źródłowe\Characters\TypesOfCharacters\Mag</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>Pliki źródłowe\Functionality\Menu\StartMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveHelper.cpp">
+      <Filter>Pliki źródłowe\Helper\Save</Filter>
+    </ClCompile>
+    <ClCompile Include="Rycerz.cpp">
+      <Filter>Pliki źródłowe\Characters\TypesOfCharacters\Rycerz</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe\Functionality\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicCharacter.h">
+      <Filter>Pliki źródłowe\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>Pliki źródłowe\Functionality\Menu\StartMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveHelper.h">
+      <Filter>Pliki źródłowe\Helper\Save</Filter>
+    </ClInclude>
+    <ClInclude Include="Mag.h">
+      <Filter>Pliki źródłowe\Characters\TypesOfCharacters\Mag</Filter>
+    </ClInclude>
+    <ClInclude Include="Rycerz.h">
+      <Filter>Pliki źródłowe\Characters\TypesOfCharacters\Rycerz</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki źródłowe\Functionality\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Źródło.cs">
+      <Filter>Pliki źródłowe\Helper\Save</Filter>
+    </None>
+  </ItemGroup>
+</Project>
